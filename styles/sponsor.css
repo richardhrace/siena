@@ -1,0 +1,546 @@
+.quote {
+    padding-top: 83px;
+    padding-bottom: 103px;
+}
+
+.banner-block-quote-box {
+    top: 1px;
+    width: 460px;
+    min-height: 408px;
+}
+
+.banner-block-quote-text {
+    padding: 77px 57px 25px 60px;
+}
+
+.quote-solutions {
+    max-width: 613px;
+}
+
+.quote-solutions > p {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #173963;
+    padding-bottom: 30px;
+}
+
+.quote-solutions ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+.quote-solutions ul li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    color: #41A8DF;
+}
+
+.quote-solutions ul li::before {
+    content: "\2022";
+    color: #173963 ;
+    font-weight: bold;
+    display: inline-block; 
+    margin-left: -1em;
+}
+
+.blue-bar {
+    min-height: 154px;
+    padding: 0px 126px 0 53px;
+    background-color: #41A8DF;
+}
+
+.blue-bar p {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.siena-reasons {
+    display: flex;
+    background-color: #EFEFEF;
+}
+
+.siena-reasons-left {
+    width: 50%;
+}
+
+.siena-reasons-left .siena-reasons-pad {
+    padding: 60px 45px;
+}
+
+.siena-reasons-right {
+    width: 50%;
+    padding: 0px;
+}
+
+.siena-reasons-right img {
+    width: 100%;
+    height: auto;
+}
+
+.case-studies {
+    padding: 97px 0px 66px 0px;
+}
+
+.case-studies p {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #41A8DF;
+    margin: 0px;
+    padding-bottom: 7px;
+}
+
+.case-studies p+p {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #173963;
+    padding-bottom: 33px;
+}
+
+.case-studies .sponsor-partners {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor-partners .sponsor-card {
+    display: block;
+    padding: 26px 0;
+    background-color: #41A8DF;
+    text-align: center;
+    min-width: 340px;
+    align-self: stretch;
+}
+
+.sponsor-card .sponsor-headline {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #173963;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+.sponsor-card .company-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 34px;
+    text-align: center;
+    color: #173963;
+    padding-bottom: 15px;
+}
+
+.sponsor-card .read-case {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+.read-case a img {
+    margin-bottom: -5px;
+}
+
+.sponsor-card .c-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 125px;
+}
+
+.bottom-blue-bar {
+    background-color: #173963;
+}
+
+.bottom-blue-bar p {
+    max-width: 665px;
+}
+
+.bottom-blue-bar p > span {
+    color: #41A8DF;
+}
+
+.siena-reasons-item .siena-reason-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    color: #173963;
+    margin: 0px 0px 15px 0px;
+}
+
+.siena-reasons-item .siena-reason-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0px 0px 15px 0px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .quote {
+        padding-top: 62px;
+        padding-bottom: 50px;
+    }
+
+    .quote-solutions {
+        max-width: 510px;
+    }
+
+    .quote-solutions > p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .quote-solutions ul li {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .banner-block-quote-box {
+        width: 330px;
+        min-height: 294px;
+        height: 294px;
+    }
+
+    .banner-block-quote-text {
+        padding: 35px 31px 25px 32px;
+    }
+
+    .siena-reasons {
+        margin-left: 0px;
+    }
+
+    .blue-bar {
+        margin-left: 0px;
+        min-height: 115px;
+    }
+
+    .blue-bar p {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .blue-bar .blue-bar-inner {
+        min-height: 115px;
+    }
+
+    .siena-reasons-left .siena-reasons-pad {
+        padding: 30px 35px;
+    }
+
+    .case-studies {
+        padding: 56px 0px 41px 0px;
+    }
+
+    .case-studies p {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .case-studies p+p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+
+    .sponsor-card .sponsor-headline {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 31px;
+    }
+
+    .sponsor-partners .sponsor-card:nth-child(1) .c-brand > img {
+        width: 71px;
+        height: 78px;
+    }
+
+    .sponsor-partners .sponsor-card:nth-child(2) .c-brand img {
+        width: 198px;
+        height: 81px;
+    }
+
+    .sponsor-partners .sponsor-card:nth-child(3) .c-brand img {
+        width: 226px;
+        height: 51px;
+    }
+
+    .sponsor-card .company-name {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .sponsor-card .read-case {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .sponsor-partners .sponsor-card {
+        padding: 22px 0px;
+        min-width: 274px;
+    }
+
+    .sponsor-card .c-brand {
+        min-height: 82px;
+    }
+
+    .bottom-blue-bar p {
+        font-size: 26px;
+        line-height: 38px;
+        margin-left: 30px;
+    }
+
+    .siena-reasons-item .siena-reason-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .siena-reasons-item .siena-reason-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .quote {
+        padding: 43px 0px 50px 0px;
+    }
+
+    .quote-solutions {
+        max-width: 330px;
+    }
+
+    .quote-solutions > p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .quote-solutions ul li {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .quote-solutions ul {
+        padding: 0px 0px 0px 17px;
+    }
+
+    .blue-bar p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .siena-reasons-left {
+        width: 55%;;
+    }
+
+    .siena-reasons-right {
+        width: 45%;;
+    }
+
+    .case-studies {
+        padding: 52px 0px 20px 0px;
+    }
+
+    .sponsor-partners {
+        margin-bottom: 20px;
+    }
+
+    .case-studies p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .case-studies p+p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 30px;
+    }
+
+    .sponsor-partners .sponsor-card {
+        padding: 18px 0px;
+        min-width: 216px;
+    }
+
+    .sponsor-card .sponsor-headline {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 0px;
+    }
+
+    .sponsor-card .company-name {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .sponsor-card .read-case {
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .sponsor-partners .sponsor-card:nth-child(1) .c-brand > img {
+        width: 50px;
+        height: 55px;
+    }
+
+    .sponsor-partners .sponsor-card:nth-child(2) .c-brand img {
+        width: 156px;
+        height: 64px;
+    }
+
+    .sponsor-partners .sponsor-card:nth-child(3) .c-brand img {
+        width: 178px;
+        height: 40px;
+    }
+
+    .sponsor-card .c-brand {
+        min-height: 66px;
+    }
+
+    .bottom-blue-bar p {
+        font-size: 22px;
+        line-height: 32px;
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    header #main-banner-image {
+        background: url(../images/BDO_Team_191003-1450.png) no-repeat;
+    }
+
+    .quote {
+        padding: 25px 0px 17px 0px;
+    }
+
+    .quote-solutions > p {
+        padding-bottom: 15px;
+    }
+
+    .quote-solutions ul {
+        padding-bottom: 25px;
+    }
+
+    .banner-block-quote-box {
+        width: 335px;
+    }
+
+    .blue-bar {
+        flex-wrap: initial;
+        min-height: 118px;
+        padding: 0px 20px;
+    }
+
+    .blue-bar .blue-bar-inner {
+        align-content: unset;
+        min-height: 118px;
+    }
+
+    .blue-bar p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .bottom-blue-bar p {
+        margin: 0px;
+        font-size: 18px;
+        line-height: 26px;
+        max-width: 335px;
+    }
+
+    .sponsor.page-container-inner {
+        width: 100%;
+    }
+
+    .siena-reasons-left {
+        width: 100%;
+    }
+
+    .siena-reasons-left .siena-reasons-pad {
+        padding: 30px 20px;
+    }
+
+    .siena-reasons-right {
+        width: 100%;
+    }
+
+    .case-studies {
+        padding: 32px 0px 0px 0px;
+    }
+
+    .case-studies p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .case-studies p+p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 32px;
+    }
+
+    .sponsor-card .company-name {
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .sponsor-partners {
+        margin-bottom: 0px;
+    }
+
+    .sponsor-partners .sponsor-card {
+        margin-bottom: 20px;
+        min-width: 335px;
+    }
+
+    .siena-reasons {
+        display: block;
+    }
+
+    .sponsor-card .sponsor-headline br {
+        display: none;
+    }
+
+    .sponsor-card .sponsor-card-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5px;
+    }
+
+    .sponsor-card .read-case {
+        display: flex;
+    }
+
+    .sponsor-card .company-name {
+        padding-bottom: 0px;
+    }
+}
